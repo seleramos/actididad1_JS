@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PRACTICA1</title>
+</head>
+ <body>
+    <script>
+     document.write('Selena Ramos y Milagros Sanchez');
+
+     document.write("ejercicio 1");
+     document.write("<br>");
+
+     let empledos;
+     empleados="Sofia";
+     document.write("<BR>");
+     let edad;
+     edad=28
+     document.write("<br>");
+     document.write(empleados);
+     document.write("<BR>");
+     document.write(edad);
+     document.write("<br>");
+     
+     document.write("ejercicio 2");
+     document.write("<br>");
+     ingnom= prompt("ingresar nombre del empleado: ");
+     ingedad= prompt("ingresar edad del empleado: ");
+     document.write("<br>");
+     document.write(ingnom);
+     document.write("<br>");
+     document.write(ingedad);
+     document.write("<br>");
+     document.write("<br>");
+
+     document.write("ejercicio 3");
+     document.write("<br>");
+     v1=prompt("ingrese el lado de un cuadrado: ");
+     let multiplicacion = parseInt(v1)*(4);
+     document.write(multiplicacion);
+     document.write("<br>");
+     document.write("<br>");
+
+     document.write("ejercicio 4");
+     document.write("<br>");
+     n1=prompt("ingrese un numero: ");
+     n2=prompt("ingrese otro numero: ");
+     n3=prompt("ingrese otro numero: ");
+     n4=prompt("ingrese otro numero: ");
+     let suma =parseInt(n1)+parseInt(n2);
+     document.write("<br>");
+     document.write(suma);
+     let producto =parseInt(n3)*parseInt(n4);
+     document.write("<br>");
+     document.write(producto);
+
+     document.write("ejercicio 5");
+     document.write("<br>");
+     num1=prompt("ingrese un numero: ");
+     num2=prompt("ingrese otro numero: ");
+     num3=prompt("ingrese otro numero: ");
+     n4=prompt("ingrese otro numero: ");
+     let suma2 =parseInt(n1)+parseInt(n2)+parseInt(n3)+parseInt(n4);
+     document.write("<br>");
+     document.write(suma2);
+     let producto2 =parseInt(n1)*parseInt(n2)*parseInt(n3)*parseInt(n4);
+     document.write("<br>");
+     document.write(producto2);
+
+     document.write("ejercicio 6");
+     document.write("<br>");
+     let precio;
+     let cantidad;
+     precio = prompt('Ingrese precio del artículo');
+     cantidad = prompt('Ingrese la cantidad de artículos a llevar:');
+     let importe;
+     importe = parseInt(precio) * parseInt(cantidad);
+     document.write('Debe abonar:');
+     document.write(importe);
+
+     document.write("ejercicio 7");
+     document.write("<br>");
+     let not1;
+     let not2;
+     let not3;
+     nota1 = parseInt(prompt('Ingrese primer nota'));
+     nota2 = parseInt(prompt('Ingrese segunda nota'));
+     nota3 = parseInt(prompt('Ingrese tercer nota'));
+     let suma1;
+     suma1 = not1 + not2 + not3;
+     let promedio2;
+     promedio2 = suma1 / 3;
+     if (promedio2 >= 7) {
+     document.write('Promocionado');
+    }
+
+     document.write("ejercicio 8");
+     document.write("<br>");
+     let nota1, nota2, nota3;
+     nota1 = prompt('Ingrese primer nota:');
+     nota1 = parseInt(nota1);
+     nota2 = prompt('Ingrese segunda nota:');
+     nota2 = parseInt(nota2);
+     nota3 = prompt('Ingrese tercer nota:');
+     nota3 = parseInt(nota3);
+     let suma3;
+     suma = nota1 + nota2 + nota3;
+     let promedio;
+     promedio = suma3 / 3;
+     if (promedi2o >= 4) {
+        document.write('Regular');
+     } else {
+        document.write('Reprobado');
+     }
+
+     document.write("ejercicio 9");
+     document.write("<br>");
+     let clave1;
+     let clave2;
+     clave1 = prompt('Ingrese una clave:');
+     clave2 = prompt('Repita el ingreso de la clave:');
+     if (clave1 == clave2) {
+         document.write('Ingresó las dos claves iguales');
+     }
+     else{
+         document.write('Ingresó las dos claves distintas')
+     }     
+     document.write("ejercicio 10");
+     document.write("<br>");
+     let num4;
+     num4 = prompt('Ingrese un valor entero');
+     num4= parseInt(num4);
+     if (num == 0) {
+         document.write('El número ingresado es cero');
+     } else {
+         if (num > 0) {
+             document.write('El número ingresado es positivo');
+         } else {
+             document.write('El número ingresado es negativo');
+         }
+     }     
+     document.write("ejercicio 11");
+     document.write("<br>");
+      let num;
+      num = parseInt(prompt('Ingrese un número de 1,2 o 3 dígitos'));
+      if (num < 10) {
+          document.write('Tiene un dígito');
+      } else {
+          if (num < 100) {
+              document.write('Tiene dos dígitos');
+          } else {
+              document.write('Tiene tres dígitos');
+          }
+      }      
+      document.write("ejercicio 12");
+     document.write("<br>");
+     let nombre;
+     nombre = prompt('Ingrese el nombre del postulante');
+     let cantpreguntas;
+     cantpreguntas = parseInt(prompt('Cantidad de preguntas del test'));
+     let cantcorrectas;
+     cantcorrectas = parseInt(prompt('Cantidad de preguntas correctas'));
+     let porcentaje;
+     porcentaje = cantcorrectas / cantpreguntas * 100;
+     if (porcentaje >= 90) {
+         document.write('Nivel superior');
+     } else {
+         if (porcentaje >= 75) {
+             document.write('Nivel medio');
+         } else {
+             if (porcentaje >= 50) {
+                 document.write('Nivel regular');
+             } else {
+                 document.write('Fuera de nivel');
+             }
+         }
+     }     
+     document.write("ejercicio 13");
+     document.write("<br>");
+     let dia, mes, año;
+     dia = parseInt(prompt('Ingrese día'));
+     mes = parseInt(prompt('Ingrese mes'));
+     año = parseInt(prompt('Ingrese año'));
+     if (dia == 25 && mes == 12) {
+         document.write('La fecha ingresada corresponde a navidad');
+     } else {
+         document.write('La fecha ingresada no corresponde a navidad');
+     }
+    </script>
+     
+
+    </script>
+ </body>
+</html>
